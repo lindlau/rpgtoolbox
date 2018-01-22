@@ -7,11 +7,11 @@ body, div, h1 {
     margin: 0px;
 }
 
-h1 { padding: 10px}
+h1 { padding: 10px;    text-shadow: 2px 2px 4px #000000; }
 
-.rpgEncounters { background: rgb(0, 71, 153) }
-.rpgDiceRoller { background: rgb(175, 0, 0) }
-.mtgTokenCounter { background: rgb(0, 153, 33) }
+.rpgEncounters { background: rgb(181, 215, 255) }
+.rpgDiceRoller { background: rgb(255, 219, 171) }
+.mtgTokenCounter { background: rgb(182, 255, 239) }
 
 .storelink {float: right}
 .storelink img { width: 200px;}
