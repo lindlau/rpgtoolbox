@@ -1,11 +1,13 @@
 body {font:menu}
 body div { height:500px }
 
-body, div {
+body, div, h1 {
     color: white;
     padding: 0px;
     margin: 0px;
 }
+
+h1 { padding: 10px}
 
 .rpgEncounters { background: rgb(0, 71, 153) }
 .rpgDiceRoller { background: rgb(175, 0, 0) }
