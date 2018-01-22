@@ -1,17 +1,25 @@
-body {font:menu}
+body {font:menu; font-size: 1em}
 body div { height:500px }
 
-body, div, h1 {
-    color: white;
+body, div, h1, ul, li, p {
+    color: rgb(0, 0, 0);
     padding: 0px;
     margin: 0px;
 }
 
-h1 { padding: 10px;    text-shadow: 2px 2px 4px #000000; }
+h1 { font-family: 'BenchNine', sans-serif; padding: 20px 30px 0px 10px; font-weight:normal; font-size:300%;   text-shadow: 2px 2px 4px #ffffff; text-align:left }
+p {padding: 0px 30px 0px 10px ; ; font-size:70%; color: #000000; text-align: left}
 
-.rpgEncounters { background: rgb(181, 215, 255) }
-.rpgDiceRoller { background: rgb(255, 219, 171) }
-.mtgTokenCounter { background: rgb(182, 255, 239) }
+ul {padding: 20px 20px 20px 50px; font-size: 100%; color: #000000}
+li {line-height: 2em}
 
-.storelink {float: right}
+.rpgEncounters { background: rgb(243, 255, 188) }
+.rpgDiceRoller { background: rgb(204, 195, 255) }
+.mtgTokenCounter { background: rgb(255, 227, 201) }
+
+div {position: relative}
+
+.storelink {position: absolute; bottom: 0px; right: 0px; margin: 30px}
 .storelink img { width: 200px;}
+
+.backgroundImage { position: absolute; bottom: 0px; right: 60px; margin: 0px; height: 400px }
