@@ -13,9 +13,9 @@ p {padding: 0px 30px 0px 10px ; ; font-size:70%; color: #000000; text-align: lef
 ul {padding: 20px 20px 20px 50px; font-size: 100%; color: #000000}
 li {line-height: 2em}
 
-.rpgEncounters { background: rgb(243, 255, 188) }
-.rpgDiceRoller { background: rgb(204, 195, 255) }
-.mtgTokenCounter { background: rgb(255, 227, 201) }
+.rpgEncounters { background: rgb(249, 255, 222) }
+.rpgDiceRoller { background: rgb(232, 229, 255) }
+.mtgTokenCounter { background: rgb(255, 240, 226) }
 
 div {position: relative}
 
