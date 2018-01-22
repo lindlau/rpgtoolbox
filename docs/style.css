@@ -1,5 +1,11 @@
-body {font:menu; color:#900; margin: 0px; padding: 0px}
-body div { height:500px}
+body {font:menu}
+body div { height:500px }
+
+body, div {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
 
 .rpgEncounters { background: rgb(0, 71, 153) }
 .rpgDiceRoller { background: rgb(175, 0, 0) }
