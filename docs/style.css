@@ -13,4 +13,5 @@ h1 { padding: 10px}
 .rpgDiceRoller { background: rgb(175, 0, 0) }
 .mtgTokenCounter { background: rgb(0, 153, 33) }
 
-.storelink img { width: 100px}
+.storelink {float: right}
+.storelink img { width: 200px;}
