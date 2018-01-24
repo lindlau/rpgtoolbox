@@ -1,5 +1,17 @@
-body {font:menu; font-size: 1em}
+body {font:menu; font-size: 1em; 
+    background: #353535 url(gfx/background.jpg);
+    background-attachment: fixed; 
+    /* Full height */
+    height: 100%; 
 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a {color: #ffffff; text-decoration: none; padding-right: 30px }
 
 body, div, h1, ul, li, p {
     color: rgb(0, 0, 0);
@@ -11,18 +23,22 @@ h1, p, div {font-family: 'BenchNine', sans-serif;}
 h1 {  padding: 20px 30px 0px 10px; font-weight:normal; font-size:250%;   text-shadow: 2px 2px 4px #ffffff; text-align:left }
 p {padding: 0px 30px 10px 10px; font-size:90%; color: #000000; text-align: left}
 
-ul {padding: 0px 20px 20px 50px; font-size: 120%; color: #353535; background: rgba(255,255,255,0.5);position: relative; top: 50px; left: 0px}
+ul {padding: 0px 20px 20px 50px; font-size: 120%; color: #353535; position: relative; top: 50px; left: 0px}
 li {line-height: 1.6em}
 
-.rpgEncounters { background: rgb(255, 255, 255) }
-.rpgDiceRoller { background: rgb(255, 255, 255) }
-.mtgTokenCounter { background: rgb(255, 255, 255) }
+.rpgEncounters { }
+.rpgDiceRoller {   }
+.mtgTokenCounter {  }
 
-.appHolder { height:690px; position: relative; border-bottom: 1px solid #999}
+.appHolder { height:670px; position: relative; border-bottom: 1px solid #999; }
 
 .storelink {position: absolute; left: 20px; bottom:20px; }
 .storelink img { width: 120px;  box-shadow: 0px 0px 22px  rgba(255,255,255,0.5);}
 
-.backgroundImage { position: absolute; bottom: 0px; right: 60px; margin: 0px; height: 400px }
+.backgroundImage { position: absolute; bottom: 0px; right: 0px; margin: 0px; height: 400px; }
 
 .img-logo {border-radius: 20px; margin:20px 20px 0px 20px; float: left; width: 80px}
+
+.footer { color: #999; text-align: right; padding: 10px 20px 10px 20px; background: #353535}
+
+.textHolder {background: #ffffff; height: 320px}
